@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TodoEnUno: herramientas online gratuitas. Calcula porcentajes, convierte unidades, crea contraseñas y cuenta palabras sin instalar nada.">
+  <meta name="theme-color" content="#101827">
+  <title>TodoEnUno | Herramientas online gratuitas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">T</span> TodoEnUno</a>
+    <nav><a href="#herramientas">Herramientas</a><a href="sobre.html">Sobre nosotros</a><a href="contacto.html">Contacto</a></nav>
+    <a class="nav-cta" href="#herramientas">Empezar gratis <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> GRATIS · RÁPIDO · SIN REGISTRO</div>
+        <h1>Pequeñas herramientas.<br><span>Grandes soluciones.</span></h1>
+        <p>Resuelve tareas del día a día directamente desde tu navegador. Sin descargas, sin complicaciones y completamente gratis.</p>
+        <a class="primary-btn" href="#herramientas">Explorar herramientas <span>↓</span></a>
+        <div class="trust-row"><span>✓ Sin instalar programas</span><span>✓ Fácil de usar</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-card card-a"><span class="mini-icon purple">％</span><div><b>Porcentajes</b><small>Cálculo instantáneo</small></div></div>
+        <div class="floating-card card-b"><span class="mini-icon green">⌁</span><div><b>Conversor</b><small>Unidades y medidas</small></div></div>
+        <div class="app-tile"><div class="tile-grid"><i></i><i></i><i></i><i></i></div><b>Todo<br>en uno.</b></div>
+        <div class="sparkle s1">✦</div><div class="sparkle s2">✧</div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><b>100%</b><span>Gratis</span></div><div><b>5</b><span>Herramientas útiles</span></div><div><b>0</b><span>Descargas necesarias</span></div>
+    </section>
+
+    <section class="tools-section" id="herramientas">
+      <div class="section-heading"><div><div class="eyebrow dark">TU CAJA DE HERRAMIENTAS</div><h2>¿Qué necesitas hacer?</h2><p>Elige una herramienta y empieza en segundos.</p></div><span class="section-count">01 — 05</span></div>
+      <div class="tool-grid">
+        <article class="tool-card featured" data-tool="calc"><div class="tool-top"><span class="tool-icon violet">＋</span><span class="tag">Popular</span></div><h3>Calculadora</h3><p>Realiza operaciones matemáticas básicas de forma sencilla.</p><button class="text-btn" data-open="calc">Abrir herramienta <span>→</span></button></article>
+        <article class="tool-card" data-tool="percent"><div class="tool-top"><span class="tool-icon orange">％</span><span class="tag">Matemáticas</span></div><h3>Calculadora de porcentajes</h3><p>Calcula descuentos, aumentos y porcentajes de cualquier cantidad.</p><button class="text-btn" data-open="percent">Abrir herramienta <span>→</span></button></article>
+        <article class="tool-card" data-tool="password"><div class="tool-top"><span class="tool-icon green">⌑</span><span class="tag">Seguridad</span></div><h3>Generador de contraseñas</h3><p>Crea contraseñas aleatorias y personaliza su longitud.</p><button class="text-btn" data-open="password">Abrir herramienta <span>→</span></button></article>
+        <article class="tool-card" data-tool="words"><div class="tool-top"><span class="tool-icon blue">¶</span><span class="tag">Productividad</span></div><h3>Contador de palabras</h3><p>Cuenta palabras, caracteres y espacios de tu texto.</p><button class="text-btn" data-open="words">Abrir herramienta <span>→</span></button></article>
+        <article class="tool-card" data-tool="convert"><div class="tool-top"><span class="tool-icon pink">⇄</span><span class="tag">Conversión</span></div><h3>Conversor de unidades</h3><p>Convierte longitud, peso y temperatura fácilmente.</p><button class="text-btn" data-open="convert">Abrir herramienta <span>→</span></button></article>
+      </div>
+    </section>
+
+    <section class="tool-workspace" id="workspace" hidden>
+      <div class="workspace-head"><div><div class="eyebrow dark">HERRAMIENTA SELECCIONADA</div><h2 id="tool-title">Calculadora</h2></div><button class="close-btn" id="close-tool" aria-label="Cerrar herramienta">✕</button></div>
+      <div id="tool-content"></div>
+    </section>
+
+    <section class="bottom-cta"><div><div class="eyebrow">HECHO PARA FACILITARTE EL DÍA</div><h2>Menos vueltas.<br>Más cosas hechas.</h2><p>Guarda TodoEnUno entre tus favoritos y vuelve cuando lo necesites.</p></div><a href="#herramientas" class="light-btn">Ver herramientas <span>→</span></a></section>
+  </main>
+
+  <footer><a class="brand" href="index.html"><span class="brand-mark">T</span> TodoEnUno</a><p>Herramientas prácticas para todos, sin complicaciones.</p><div class="footer-links"><a href="sobre.html">Sobre nosotros</a><a href="privacidad.html">Privacidad</a><a href="contacto.html">Contacto</a></div><small>© <span id="year"></span> TodoEnUno. Hecho con dedicación.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>

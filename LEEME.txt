@@ -1,0 +1,37 @@
+TODOENUNO — SITIO WEB INICIAL
+=============================
+
+Archivos:
+- index.html: página principal y herramientas
+- styles.css: diseño adaptable a celular y computadora
+- script.js: funcionamiento de las herramientas
+- sobre.html, privacidad.html, contacto.html: páginas informativas
+
+PROBAR EN TU COMPUTADORA
+1. Descomprime el ZIP.
+2. Abre index.html con Chrome, Edge o Firefox.
+
+PUBLICAR GRATIS CON GITHUB PAGES
+1. Crea una cuenta en https://github.com/ si no tienes una.
+2. Crea un repositorio público llamado exactamente: TUUSUARIO.github.io
+3. Sube todos los archivos de esta carpeta al nivel principal del repositorio.
+4. En Settings > Pages, verifica que se publique desde la rama main y la carpeta / (root), si GitHub no lo activa automáticamente.
+5. Espera a que GitHub Pages publique el sitio y abre https://TUUSUARIO.github.io
+
+ANTES DE PUBLICAR
+- En contacto.html reemplaza TU-CORREO@EJEMPLO.COM por un correo real.
+- Revisa el texto de privacidad y adapta cualquier servicio que añadas.
+- Cambia el nombre y el contenido si deseas usar otra marca.
+- Añade artículos originales, útiles y bien trabajados; una web con solo herramientas puede no ser suficiente para AdSense.
+- No insertes anuncios hasta que Google apruebe el sitio y te proporcione el código.
+
+ADSENSE
+Esta web NO está aprobada ni conectada a AdSense. No se puede garantizar la aprobación ni ingresos.
+Cuando el sitio tenga contenido original, navegación clara, información de contacto y privacidad correcta:
+1. Entra a https://adsense.google.com/ con tu cuenta Google.
+2. Añade el sitio y sigue el proceso de verificación que Google indique.
+3. Solo después de la aprobación, integra el código oficial que AdSense te proporcione.
+4. Cumple las políticas de consentimiento y privacidad aplicables a tus visitantes.
+
+NOTA
+GitHub Pages ofrece alojamiento estático gratuito, pero el subdominio github.io puede no ser aceptado para monetización por AdSense. No compres nada por ahora: primero valida el proyecto y consulta los requisitos vigentes de AdSense para el dominio que quieras usar.
